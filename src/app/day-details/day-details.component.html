@@ -1,0 +1,10 @@
+<div class="card" *ngIf="dayData">
+    <div class="image">
+        <img src="{{dayData.url}}" alt="">
+        <p>Copyright: {{dayData.copyright}}</p>
+    </div>
+    <div class="explanation">
+        Explanation: {{dayData.explanation}}
+    </div>
+</div>
+<button (click)="back()">Back</button>

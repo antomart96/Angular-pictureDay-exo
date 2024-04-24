@@ -1,0 +1,11 @@
+<div class="card" *ngIf="apod" style="
+    background-image: url({{apod.url}});
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+"
+(click)="navigate()"
+>
+    <p class="title">{{apod.title}}</p>
+    <p class="date">{{apod.date}}</p>
+</div>

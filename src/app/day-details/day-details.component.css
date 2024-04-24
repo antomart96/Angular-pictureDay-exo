@@ -1,0 +1,12 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    width: 45%;
+}
+.explanation{
+    margin: 250px;
+    width: 45%;
+    text-align: center;
+}

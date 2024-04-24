@@ -1,0 +1,19 @@
+
+.card {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    
+}
+.date{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+}
+.title{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    color: white;
+}

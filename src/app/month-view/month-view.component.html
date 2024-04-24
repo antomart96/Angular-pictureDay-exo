@@ -1,0 +1,13 @@
+<div class="inputs">
+    <div>
+        <label for="start_date"> From :</label>
+        <input [(ngModel)]="startDate" (ngModelChange)="getDays()" id="start_date" name="end_date" type="date" >
+    </div>
+    <div>
+        <label for="end_date"> To : </label>
+        <input [(ngModel)]="endDate" (ngModelChange)="getDays()" type="date" name="end_date" id="end_date" >
+    </div>
+</div>
+<div class="day-holder">
+    <app-day-card *ngFor="let day of apods" [apod]="day"></app-day-card>
+</div>
