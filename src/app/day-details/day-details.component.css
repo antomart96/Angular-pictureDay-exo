@@ -1,12 +1,28 @@
-.card{
-    display: flex;
-    justify-content: space-between;
+.details-cadre {
+  margin: 100px 250px 0px 250px;
+  border: 1px solid black;
+  border-radius: 50px;
 }
-.image{
-    width: 45%;
+.details-cadre .back {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  color: gray;
+  padding: 15px 30px;
+  transition: 0.4s;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #dae2f1;
+  box-shadow: inset 5px 5px 6px #ffffff, inset -5px -5px 6px #5d5d5d;
 }
-.explanation{
-    margin: 250px;
-    width: 45%;
-    text-align: center;
+.details-cadre .details {
+  margin: 30px;
+  box-shadow: inset 5px 5px 6px #ffffff, inset -5px -5px 6px #5d5d5d;
+  background-color: whitesmoke;
 }
+.details-cadre .details p {
+  padding: 20px;
+}
+.details-cadre .details img {
+  width: 40%;
+}/*# sourceMappingURL=day-details.component.css.map */

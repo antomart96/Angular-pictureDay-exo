@@ -1,10 +1,9 @@
-<div class="card" *ngIf="dayData">
-    <div class="image">
+<div class="details-cadre" *ngIf="dayData">
+    <button class="back" (click)="back()">Back</button>
+    <div class="details">
         <img src="{{dayData.url}}" alt="">
         <p>Copyright: {{dayData.copyright}}</p>
+        <p>Explanation: {{dayData.explanation}}</p> 
     </div>
-    <div class="explanation">
-        Explanation: {{dayData.explanation}}
-    </div>
+
 </div>
-<button (click)="back()">Back</button>

@@ -1,0 +1,23 @@
+.inputs{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    input[type=date] {
+        border: .2em solid #1e8ae9;
+        padding: .8em .9em;
+        border-radius: 2em;
+        color: #1e8ae9;
+    }
+}
+.day-holder{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    margin: 50px;
+    box-shadow: inset 5px 5px 6px #ffffff, inset -5px -5px 6px #5d5d5d;
+    background-color: whitesmoke;
+}

@@ -1,19 +1,38 @@
-
-.card {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    
+.day {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #dae2f1;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 225px;
+  height: 300px;
+  box-shadow: inset 5px 5px 6px #ffffff, inset -5px -5px 6px #5d5d5d;
 }
-.date{
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    color: white;
+.day h2 {
+  font-size: 14px;
+  padding: 10px 10px 5px 10px;
 }
-.title{
-    position: absolute;
-    top: 90%;
-    left: 5%;
-    color: white;
+.day p {
+  font-size: 10px;
+  padding: 5px 10px 10px 10px;
 }
+.day .ImgDiv {
+  overflow: hidden;
+  height: 180px;
+}
+.day .ImgDiv img {
+  width: 100%;
+}
+.day a {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  border: 1px solid #717171;
+  border-radius: 15px;
+  box-shadow: inset 5px 5px 6px #ffffff, inset -5px -5px 6px #5d5d5d;
+}/*# sourceMappingURL=day-card.component.css.map */
